@@ -15,6 +15,7 @@ class App extends Component {
           Bye there... i am changed 
           Hello all GM
           how are you
+          hello i am changed
         </p>
       </div>
     );
