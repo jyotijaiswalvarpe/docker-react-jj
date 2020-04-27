@@ -16,6 +16,7 @@ class App extends Component {
           Hello all GM
           how are you
           hello i am changed
+          I was changed on the feature branch
         </p>
       </div>
     );
