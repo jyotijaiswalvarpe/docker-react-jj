@@ -18,14 +18,14 @@ workflows:
         deploy:
             provider: elasticbeanstalk
             region: "us-east-2"
-            app: "docker_react"
-            env: "DockerReact-env"
+            app: "dockTest"
+            env: "Docktest-env"
             bucket_name: "elasticbeanstalk-us-east-2-493059561792"
-            bucket_path: "docker_react"
+            bucket_path: "dockTest"
             on:
               branch: master
             access_key_id: $AWS_ACCESS_KEY
             secret_access_key: $AWS_SECRET_KEY
            
-            http://dockerreact-env.eba-ftpzsvya.us-east-2.elasticbeanstalk.com/   
-            #added comment
+            http://docktest-env.eba-yajczuqc.us-east-2.elasticbeanstalk.com/
+            #added new name 
