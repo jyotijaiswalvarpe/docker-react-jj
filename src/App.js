@@ -19,6 +19,7 @@ class App extends Component {
           I was changed on the feature branch
 	        I am changing on 2A9th June 2020
           hi there , Good morning </p>
+          I am changed on the feature branch now
       </div>
     );
   }
